@@ -1,0 +1,82 @@
+<section id="contact" class="contact">
+
+    <div class="section-title" data-aos="fade-up">
+
+        <span>CONTACT</span>
+
+        <h2>Get In Touch</h2>
+
+        <p>
+            Have a project, internship opportunity, or just want to connect?
+            Feel free to contact me.
+        </p>
+
+    </div>
+
+    <div class="contact-container">
+
+        <!-- Contact Information -->
+
+        <div class="contact-info" data-aos="fade-right">
+
+            <h3>Let's Connect</h3>
+
+            <p>
+                I'm always open to discussing new opportunities,
+                collaborations, and exciting projects.
+            </p>
+
+            <div class="info-box">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h4>Email</h4>
+                    <p>youremail@example.com</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <i class="fas fa-phone"></i>
+                <div>
+                    <h4>Phone</h4>
+                    <p>+91 XXXXXXXXXX</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <i class="fas fa-location-dot"></i>
+                <div>
+                    <h4>Location</h4>
+                    <p>India</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Contact Form -->
+
+        <div class="contact-form" data-aos="fade-left">
+
+            <form action="#" method="post">
+
+                {% csrf_token %}
+
+                <input type="text" placeholder="Your Name" required>
+
+                <input type="email" placeholder="Your Email" required>
+
+                <input type="text" placeholder="Subject">
+
+                <textarea rows="6" placeholder="Your Message"></textarea>
+
+                <button type="submit" class="btn">
+                    <i class="fas fa-paper-plane"></i>
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
