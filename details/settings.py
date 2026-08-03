@@ -16,7 +16,7 @@ SECRET_KEY = 'django-insecure-51-so*wz^a($pfy+8y5qyvbq$)6^+e%z=a8xb7y0tqeae)ppci
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # APPLICATIONS
