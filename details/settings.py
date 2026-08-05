@@ -16,7 +16,11 @@ SECRET_KEY = 'django-insecure-51-so*wz^a($pfy+8y5qyvbq$)6^+e%z=a8xb7y0tqeae)ppci
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    ".onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # APPLICATIONS
@@ -110,9 +114,9 @@ USE_I18N = True
 USE_TZ = True
 
 
-# STATIC FILES
+# Static Files
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     BASE_DIR / 'student' / 'static',
@@ -121,6 +125,7 @@ STATICFILES_DIRS = [
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 
 
 # MEDIA FILES
